@@ -15,3 +15,10 @@ if (process.env.NODE_ENV === 'production') {
 }
 
 export default server
+
+// APPROACH //
+// back end to front end!
+// maybe do databases first? easiest way to go as can see what the data will look like so will be easier to build everything (especially as can see stuff pop up sooner!)
+// then generic routing - aim just for a home page with the list of cats to start with
+// have most basic front end initially
+// then do individual cat pages - maybe have a next button which displays the "next" cat in the home page list rather than having to go home before seeing another one!

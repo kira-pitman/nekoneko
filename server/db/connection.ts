@@ -9,3 +9,4 @@ const config = knexFile[environment]
 const connection = knex(config)
 
 export default connection
+
