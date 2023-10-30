@@ -3,10 +3,10 @@
 //  * @returns { Promise<void> }
 //  */
 export function up(knex) {
-  return knex.schema.createTable('cats', (table) => {
+  return knex.schema.createTable('neko', (table) => {
     table.increments('id').primary()
     table.string('name')
-    table.string('alias')
+    table.string('breed')
     table.string('owner')
     table.string('facts')
     table.string('location')
@@ -19,5 +19,5 @@ export function up(knex) {
 //  * @returns { Promise<void> }
 //  */
 export function down(knex) {
-  return knex.schema.dropTableIfExists('cats')
+  return knex.schema.dropTableIfExists('neko')
 }
