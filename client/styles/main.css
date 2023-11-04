@@ -19,14 +19,14 @@ body {
 ul {
   display: flex;
   justify-content: center;
-  flex-direction: row;
+  flex-direction: center;
   flex-wrap: wrap;
 }
 
 li {
   font-family: 'Abril Fatface', serif;
   text-align: center;
-  font-size: 20px;
+  font-size: 3vw;
 
   text-decoration: none;
   list-style-type: none;
