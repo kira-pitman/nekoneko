@@ -1,0 +1,36 @@
+@import url('https://fonts.googleapis.com/css2?family=Abril+Fatface&family=Montserrat&family=Ribeye&family=Roboto&display=swap');
+
+h1 {
+  font-family: 'Abril Fatface', serif;
+  text-align: center;
+  font-size: 5vw;
+
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-wrap: nowrap;
+}
+
+body {
+  background-color: dimgrey;
+  color: beige;
+}
+
+ul {
+  display: flex;
+  justify-content: center;
+  flex-direction: row;
+  flex-wrap: wrap;
+}
+
+li {
+  font-family: 'Abril Fatface', serif;
+  text-align: center;
+  font-size: 20px;
+
+  text-decoration: none;
+  list-style-type: none;
+
+  padding: 10px;
+  margin: 20px;
+}
