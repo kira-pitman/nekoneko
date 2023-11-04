@@ -28,7 +28,12 @@ export default function NekoList() {
         <div className="nekoList">
           <ul>
             {nekoList.map((n: neko, index: number) => {
-              return <li key={index}>{n.name}</li>
+              return (
+                <li key={index}>
+                  {''}
+                  {n.name}
+                </li>
+              )
             })}
           </ul>
         </div>

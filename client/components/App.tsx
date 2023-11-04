@@ -5,9 +5,10 @@ function App() {
     <>
       <header className="header">
         <h1>Neko neko!!</h1>
+        <Outlet />
       </header>
-      <Outlet />
       <section className="main"></section>
+      <footer className="footer"></footer>
     </>
   )
 }
