@@ -2,7 +2,9 @@
 
 ## WHAT
 
-Full stack application to showcase my friends cats! Includes information about cats such as owner, location, image(s), and key facts! 
+Full stack application to showcase my friends cats! Includes information about cats such as owner, location, image(s), and key facts!
+
+I'd also like to be able to rank cats on cuteness, robustness, and personality, to almost create a poke-deck like structure of them, where you are able to compare and rank the cats in your deck - this will hopefully refresh and extend my auth0 skills.
 
 ## WHY
 
