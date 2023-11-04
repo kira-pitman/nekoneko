@@ -1,10 +1,14 @@
+import { Outlet } from 'react-router-dom'
+
 function App() {
   return (
     <>
       <header className="header">
-        <h1>My Collection</h1>
+        <h1>Neko neko!!</h1>
+        <Outlet />
       </header>
-      <section className="main">{/* add your code here */}</section>
+      <section className="main"></section>
+      <footer className="footer"></footer>
     </>
   )
 }
